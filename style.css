@@ -1,4 +1,4 @@
-<style>
+
 p{
   border-width: 1px;
   border-style: dotted;
@@ -7,10 +7,8 @@ p{
   text-align: center;
 }
 
-.Bluebox{
+.bluebox{
     border-color: #99d8ef;
     border-width: 2px;
     border-style: solid;
 }
-
-</style>
