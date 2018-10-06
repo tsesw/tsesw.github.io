@@ -1,0 +1,16 @@
+<style>
+p{
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #99d8ef;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.Bluebox{
+    border-color: #99d8ef;
+    border-width: 2px;
+    border-style: solid;
+}
+
+</style>
