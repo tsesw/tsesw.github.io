@@ -4,10 +4,41 @@
   <link rel="2_home_style" type=text/css href="2_home_style.css">
   <script src= "script.js"></script>
 
-  <title>My first styled page</title>
+  <title>Pet Age Calculator</title>
 
 </head>
 
-<div class="title">Cat Age Calculator</div>
+    <h1>How old is your dog?</h1>
+
+
+    <form name="dcal" align="center">
+
+      <p>Dog Age: <input type="text" name="txtdog_age">
+      <br>
+      Human Age: <input type="text" name="txthuman_age"><br>
+
+      <input type="button" value="calculate" onclick="age_cal()">
+
+    </form>
+
+    <script type="text/javascript">
+
+            function age_cal()
+            {
+              var dog_age;
+              dog_age=Number(document.dcal.txtdog_age.value);
+              res=dog_age*7;
+              document.dcal.txthuman_age.value=res;
+
+            }
+
+
+
+    </script>
+
+
+
+
+
 
 </html>
