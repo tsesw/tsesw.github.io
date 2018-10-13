@@ -1,5 +1,6 @@
 body{
   background-color:#8DB0D9
+
 }
 
 h1{
@@ -11,7 +12,7 @@ h1{
 
 .center {
     display: block;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 45%;
@@ -50,7 +51,7 @@ input[type=button]{
 
 
 form{
-  margin-top: 100px;
+  margin-top: 70px;
   background-color: #E7707C;
   border-style: dashed;
   border-width: thick;
@@ -68,9 +69,7 @@ p{
   text-align: center;
 }
 
-.button{
-  display:block;
-  margin: 0 auto;
+button{
   background-color: #B3DA8C;
   border: none;
   border-radius: 10px;
