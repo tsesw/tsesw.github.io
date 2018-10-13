@@ -68,7 +68,9 @@ p{
   text-align: center;
 }
 
-button{
+.button{
+  display: block;
+  margin: 0 auto;
   background-color: #B3DA8C;
   border: none;
   border-radius: 10px;
