@@ -2,9 +2,24 @@
 
 <head>
   <link rel="stylesheet" type=text/css href="2_home_style.css">
-  <script src= "script.js"></script>
+  <script src= "2_script.js"></script>
+
 
   <title>Dog Age Calculator</title>
+
+
+  <script>
+  function show_topic()
+  {
+      var x = document.getElementById("demo");
+      var my_name = prompt("Enter your your name")
+      x.style.fontSize = "25px";
+      x.style.color = "red";
+      document.getElementById("demo").innerHTML = "My name is " + my_name;
+    }
+
+    </script>
+
 
 </head>
 
@@ -29,20 +44,8 @@
 
 
 
-    <script type="text/javascript">
 
-            function age_cal()
-            {
-              var dog_age;
-              dog_age=Number(document.dcal.txtdog_age.value);
-              res=dog_age*7;
-              document.dcal.txthuman_age.value=res;
-
-            }
-
-
-
-    </script>
+    <button onclick="show_topic()">Click this button!</button>
 
 </body>
 
